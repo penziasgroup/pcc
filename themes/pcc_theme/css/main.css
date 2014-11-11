@@ -5,3 +5,14 @@ Custom CSS styles that override base theme go here.
 .header-block p.course-name a {
   font-size:32px;
 }
+
+.front .views-field-field-hero-image,
+.page-faculty .views-field-field-hero-image {
+  width:100%;
+  float:none;
+}
+
+.front .hero-copy,
+.page-faculty .hero-copy {
+  display:none;
+}
